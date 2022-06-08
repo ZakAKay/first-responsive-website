@@ -79,18 +79,19 @@ main {
     background-color: darkcyan;
 }
 
-h2, p {
+/* h2, p {
      color: white;
     
 
-}
+} */
 }
 
 @media (min-width: 992px) {
     body {
         background-color: black;
         
-    }
+ }
+ h2, p {color: white}
  .container {
      display: grid;
     /* grid-template-columns: repeat(3,1fr);
